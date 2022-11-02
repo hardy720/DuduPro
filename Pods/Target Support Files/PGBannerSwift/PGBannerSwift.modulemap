@@ -1,6 +1,0 @@
-framework module PGBannerSwift {
-  umbrella header "PGBannerSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}
