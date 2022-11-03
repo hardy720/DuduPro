@@ -1,3 +1,109 @@
-PODFILE CHECKSUM: 582152db1ec919d55a3ea3bb084ef6af42a7a8c4
+PODS:
+  - Alamofire (5.6.1)
+  - Bugly (2.5.91)
+  - DZNEmptyDataSet (1.8.1)
+  - HandyJSON (5.0.2)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - IQKeyboardManager (6.5.10)
+  - JXPagingView (2.1.2):
+    - JXPagingView/Pager (= 2.1.2)
+    - JXPagingView/Paging (= 2.1.2)
+  - JXPagingView/Pager (2.1.2)
+  - JXPagingView/Paging (2.1.2)
+  - JXPhotoBrowser (3.1.3)
+  - JXSegmentedView (1.3.0)
+  - Kingfisher (7.2.1)
+  - KMNavigationBarTransition (1.1.10)
+  - MJRefresh (3.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - PGBannerSwift (1.0.5)
+  - Reachability (3.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Bugly
+  - DZNEmptyDataSet
+  - HandyJSON
+  - IGListKit
+  - IQKeyboardManager
+  - JXPagingView
+  - JXPhotoBrowser
+  - JXSegmentedView
+  - Kingfisher
+  - KMNavigationBarTransition
+  - MJRefresh
+  - Moya
+  - ObjectMapper
+  - PGBannerSwift
+  - Reachability
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bugly
+    - DZNEmptyDataSet
+    - HandyJSON
+    - IGListDiffKit
+    - IGListKit
+    - IQKeyboardManager
+    - JXPagingView
+    - JXPhotoBrowser
+    - JXSegmentedView
+    - Kingfisher
+    - KMNavigationBarTransition
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PGBannerSwift
+    - Reachability
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
+  JXPhotoBrowser: d32e94e1226d43bf5ed83164e3f5b651fed625e0
+  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
+  KMNavigationBarTransition: ceea7a78462b6d9910cf6dba93465a7e9168a1b7
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PGBannerSwift: 82ebdfeb1ae3e1579695fee6e3109906c130d726
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: ae48e3964348d38b07e10005d80380012e7a4660
 
 COCOAPODS: 1.11.3

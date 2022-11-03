@@ -1101,6 +1101,7 @@
 				39D504DF273D0637008463C2 /* Sources */,
 				39D504E0273D0637008463C2 /* Frameworks */,
 				39D504E1273D0637008463C2 /* Resources */,
+				74D8637F1CDF6D531D7FD570 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1138,6 +1139,7 @@
 				39D50500273D064A008463C2 /* Sources */,
 				39D50501273D064A008463C2 /* Frameworks */,
 				39D50502273D064A008463C2 /* Resources */,
+				611D5684A08AC958C2FAC665 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1266,6 +1268,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611D5684A08AC958C2FAC665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro-DuDuSwiftProUITests/Pods-DuDuSwiftPro-DuDuSwiftProUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro-DuDuSwiftProUITests/Pods-DuDuSwiftPro-DuDuSwiftProUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro-DuDuSwiftProUITests/Pods-DuDuSwiftPro-DuDuSwiftProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D8637F1CDF6D531D7FD570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro/Pods-DuDuSwiftPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro/Pods-DuDuSwiftPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuDuSwiftPro/Pods-DuDuSwiftPro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEFC255AC4EB0E53B4726A7D /* [CP] Check Pods Manifest.lock */ = {
