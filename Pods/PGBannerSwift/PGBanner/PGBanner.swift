@@ -197,7 +197,7 @@ extension PGBanner {
 extension PGBanner {
     fileprivate func addTimer() {
         self.timer = Timer(timeInterval: self.timeInterval, target: self, selector: #selector(nextImage), userInfo: nil, repeats: true)
-        RunLoop.main.add(self.timer!, forMode: .commonModes)
+        RunLoop.main.add(self.timer!, forMode: .common)
     }
     
     @objc fileprivate func nextImage() {
